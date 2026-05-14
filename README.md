@@ -42,15 +42,21 @@ SpecArchitect operates through a 4-phase sequential pipeline:
 
 ### For AI Agents (Cursor, Windsurf, Trae, etc.)
 
+Choose the method that fits your workflow:
+
+#### 🚀 Option A: Automated (Clone & Workspace)
 1.  **Clone the Repository**:
     ```bash
     git clone https://github.com/krishadvaani/spec-architect-agent.git
     ```
-2.  **Copy the Skill**: Copy the entire content of the [`SKILL.md`](./SKILL.md) file.
-3.  **Add to System Prompt**:
-    *   **Cursor**: Go to Settings -> General -> Rules for AI and paste the content.
-    *   **Windsurf / Trae**: Add the file to your `.rules` or `.windsurf` configuration folder.
-    *   **Custom Agents**: Inject the text as a "Master System Skill" in your agent's system prompt configuration.
+2.  **Direct the Agent**: Tell your AI agent: *"I've cloned the SpecArchitect repository into my workspace. Use the instructions in `SKILL.md` to act as my Specification Master."*
+
+#### 📝 Option B: Manual (Copy & Paste)
+1.  **Copy the Content**: Open the [`SKILL.md`](./SKILL.md) file and copy the entire text.
+2.  **Add to System Prompt**:
+    *   **Cursor**: Settings -> General -> Rules for AI -> Paste.
+    *   **Windsurf / Trae**: Add to your `.rules` or `.windsurf` config.
+    *   **Custom Agents**: Paste into the "System Instructions" or "Master Skill" field.
 3.  **Initialize**: Start a new chat and say: *"SpecArchitect, I want to build a new project."*
 
 ---
